@@ -1,0 +1,786 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Desenvolvimento web - Ao infindo e além</title>
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/league.css" id="theme">
+    <link rel="stylesheet" href="css/apresentacao.css">
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="reveal">
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+    <section data-background="img/buzz.jpg">
+      <div class="opacity">
+        <h1>Desenvolvimento web</h1>
+        <h3>Ao infinito e além</h3>
+      </div>
+    </section>
+    <section>
+      <div class="pessoa">
+        <img src="img/rodolfo.jpg" height="300">
+        <h1>Rodolfo Pereira</h1>
+        <p>Dev ASP.NET, Node.js & AngularJS.</p>
+        <ul>
+          <li><a target="_blank" href="http://twitter.com/rodolfoprr">twitter.com/rodolfoprr</a></li>
+          <li><a target="_blank" href="https://github.com/rodolfoprr">github.com/rodolfoprr</a>
+          <li><a target="_blank" href="mailto:rod.lps@hotmail.com">rod.lps@hotmail.com</a>
+        </ul>
+      </div>
+      <div class="pessoa">
+        <img src="img/victor.jpg" height="300">
+        <h1>Victor Miguez</h1>
+        <p>Desenvolvedor front-end na Princi Agência Web. Cursando sistemas de informação.</p>
+        <ul>
+          <li><a target="_blank" href="http://twitter.com/_vmiguez">twitter.com/_vmiguez</a></li>
+          <li><a target="_blank" href="https://github.com/victormiguez">github.com/victormiguez</a>
+          <li><a target="_blank" href="mailto:victorcineis@gmail.com">victorcineis@gmail.com</a>
+        </ul>
+      </div>
+    </section>
+    <section data-background="img/bg-princiweb.jpg">
+      <a target="_blank" href="http://www.princiweb.com.br"><img class="no-background" src="img/princiweb.png" width="350" style="margin-top: 0"></a>
+      <ul class="redes">
+        <li class="github"><a target="_blank" href="http://github.com/princiweb">/princiweb</a></li>
+        <li class="facebook"><a target="_blank" href="http://fb.com/princiweb">/princiweb</a></li>
+        <li class="twitter"><a target="_blank" href="http://twitter.com/agenciaweb">/agenciaweb</a></li>
+        <li class="linkedin"><a target="_blank" href="http://www.linkedin.com/company/princi-web">/princiweb</a></li>
+      </ul>
+      <ul class="manifesto">
+        <li>
+          <span class="numero">1</span>
+          <h4>Cada projeto é único</h4>
+          <p>Assim como um artesão, desenvolvemos projetos únicos que valorizem o negócio do cliente <span>causando assim admiração naqueles que os utilizam.</span></p>
+        </li>
+        <li>
+          <span class="numero">2</span>
+          <h4>Foco nas pessoas</h4>
+          <p>O segredo de sucesso dos nossos projetos não está em processos ou metodologias e sim na <span>confiança, união e paixão do nosso time.</span></p>
+        </li>
+        <li>
+          <span class="numero">3</span>
+          <h4>Cliente feliz</h4>
+          <p>Através de negociação justa e transparente, e atendimento inteligente, aliados a um projeto de qualidade, garantimos a felicidade de <span>um membro essencial do nosso time: Nosso cliente.</span></p>
+        </li>
+        <li>
+          <span class="numero">4</span>
+          <h4>Paixão e diversão</h4>
+          <p>Nossos projetos são desenvolvidos por pessoas apaixonadas pelo que fazem e que acreditam que, <span>sem trabalho duro, não há diversão.</span></p>
+        </li>
+        <li>
+          <span class="numero">5</span>
+          <h4>Trabalho em conjunto</h4>
+          <p>
+            Projetos os quais a nossa equipe e o cliente trabalham juntos com o
+            mesmo propósito e comprometimento, são <span>garantia de sucesso.</span>
+          </p>
+        </li>
+        <li>
+          <span class="numero">6</span>
+          <h4>Cada pixel importa</h4>
+          <p>Somos atentos aos pequenos detalhes e isso não é uma questão de sermos neuróticos, afinal, <span>por que começarmos a fazer algo se não for para fazer da melhor maneira?</span> </p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Objetivo</h2>
+      <p>Compartilhar, de acordo com a nossa vivência, as ferramentas e tecnologias necessárias para desenvolvimento web, desde o início de um projeto até o seu final.</p>
+    </section>
+    <section data-background="img/avengers.jpg">
+      <div class="opacity" style="width: 600px; margin: 0 auto; padding: 10px 0 20px !important">
+        <h2>Equipe</h2>
+        <ul>
+          <li>UI/UX</li>
+          <li>Front-end</li>
+          <li>Back-end</li>
+          <li>Fullstack Developer</li>
+          <li>Dev-ops</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2>Editores de imagem</h2>
+      <ul class="logo-list col-2">
+        <li>
+          <a target="_blank" href="http://www.adobe.com/br/products/photoshop.html">
+            <figure class="logo-wrapper"><img src="img/editores-imagem/photoshop.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="http://www.gimp.org/">
+            <figure class="logo-wrapper"><img src="img/editores-imagem/gimp.jpg"></figure>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <img src="img/front-end/html-css-js.png" width="100%" class="no-background">
+    </section>
+    <section>
+      <div>
+        <img src="img/front-end/logo-html.png" width="200" class="no-background">
+      </div>
+      <ul>
+        <li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN</a></li>
+        <li><a target="_blank" href="http://html5doctor.com/">HTML5Doctor</a></li>
+        <li><a target="_blank" href="http://diveintohtml5.com.br/">Dive into HTML5</a></li>
+      </ul>
+    </section>
+    <section>
+      <section>
+        <div>
+          <img src="img/front-end/logo-css.png" width="200" class="no-background">
+        </div>
+        <ul>
+          <li><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Reference">MDN</a></li>
+          <li><a target="_blank" href="http://tableless.com.br/oocss-smacss-bem-dry-css-afinal-como-escrever-css/">OOCSS, SMACSS, BEM, DRY CSS</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Pré-processadores CSS</h2>
+        <ul class="logo-list">
+          <li>
+            <a target="_blank" href="http://lesscss.org/">
+              <figure class="logo-wrapper"><img src="img/pre-processadores/less.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://sass-lang.com/">
+              <figure class="logo-wrapper"><img src="img/pre-processadores/sass.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://learnboost.github.io/stylus/">
+              <figure class="logo-wrapper"><img src="img/pre-processadores/stylus.jpg"></figure>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section data-background="http://tclhost.com/ua9Ogy0.gif">
+        <div class="opacity">
+          <h2>Mas tome cuidado!</h2>
+          <em>"Usar um pré-processdor te fará escrever css mais rápido, não melhor."</em>
+        </div>
+      </section>
+    </section>
+    <section>
+      <section>
+        <div>
+          <img src="img/front-end/js.png" width="200" class="no-background">
+        </div>
+        <ul>
+          <li>
+            <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">MDN</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/braziljs/eloquente-javascript">JavaScript Eloquente</a>
+          </li>
+          <li>
+            <a target="_blank" href="http://shop.oreilly.com/product/9780596805531.do">JavaScript: The Definitive Guide</a>
+          </li>
+          <li>
+            <a target="_blank" href="http://shop.oreilly.com/product/9780596517748.do">JavaScript: The Good Parts</a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <img src="img/java-js.jpg" height="571" width="376" >
+      </section>
+      <section data-background="img/js-framework.png">
+        <h2>Javascript Frameworks</h2>
+      </section>
+      <section>
+        <img src="img/angular.jpg">
+        <h2>Superheroic JavaScript MVW Framework</h2>
+        <p class="fragment">Minicurso amanhã, vagas limitadas!</p>
+      </section>
+    </section>
+    <section>
+      <section data-background="img/gifs/jato.gif">
+        <h2>Performance</h2>
+      </section>
+      <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+        <h2>Para saber mais</h2>
+        <ul>
+          <li><a target="_blank" href="http://tableless.com.br/performance-frontend-parte1/">Performance front-end parte 1</a></li>
+          <li><a target="_blank" href="http://tableless.com.br/performance-frontend-parte2/">Performance front-end parte 2</a></li>
+        </ul>
+      </section>
+      <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+        <h2>Ferramentas</h2>
+        <ul>
+          <li><a target="_blank" href="https://kraken.io/web-interface">Kraken.io</a></li>
+          <li><a target="_blank" href="http://cssminifier.com/">CSS Minifier</a></li>
+          <li><a target="_blank" href="http://jscompress.com/">JS Compress</a></li>
+        </ul>
+      </section>
+      <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+        <h2>Browser Diet</h2>
+        <div><a target="_blank" href="http://browserdiet.com/pt/"><img src="img/browser-diet.png" width="100%"></a></div>
+      </section>
+    </section>
+    <section>
+      <section>
+        <h2>CDN</h2>
+        <img src="img/cdn.jpg" width="500">
+      </section>
+      <section>
+        <h2>Mas e se cair? Fallback nele!</h2>
+        <img src="img/cdn-fallback.png" width="100%">
+      </section>
+    </section>
+    <section>
+      <section>
+        <h2>Task runners</h2>
+        <ul class="logo-list">
+          <li>
+            <a target="_blank" href="http://gruntjs.com/">
+              <figure class="logo-wrapper"><img src="img/task-runners/grunt.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://gulpjs.com/">
+              <figure class="logo-wrapper"><img src="img/task-runners/gulp.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://brunch.io/">
+              <figure class="logo-wrapper"><img src="img/task-runners/brunch.jpg"></figure>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+        <h2>Gulp Fiction</h2>
+        <div><a target="_blank" href="http://gulpfiction.divshot.io/"><img src="img/task-runners/gulp-fiction.png" width="100%"></a></div>
+      </section>
+      <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+        <h2>Para saber mais</h2>
+        <div class="left-image">
+          <a target="_blank" href="http://www.princiweb.com.br/blog/front-end/ferramentas/otimizando-a-perfomance-do-seu-site-com-o-grunt.html">
+          <img src="img/task-runners/grunt.jpg" width="180">
+          <span class="text">Otimizando a performance do seu site com Grunt</span>
+          </a>
+        </div>
+        <div class="left-image">
+          <a target="_blank" href="http://www.princiweb.com.br/blog/front-end/ferramentas/otimizando-a-perfomance-do-seu-site-com-o-grunt.html">
+          <img src="img/task-runners/gulp.jpg" width="180">
+          <span class="text">Criando um workflow mais produtivo com Gulp.js</span>
+          </a>
+        </div>
+      </section>
+    </section>
+    <section>
+      <h2>Do lado do servidor</h2>
+      <ul class="logo-list col-2">
+        <li>
+          <a target="_blank" href="http://www.asp.net/">
+            <figure class="logo-wrapper"><img src="img/aspnet.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="http://nodejs.org">
+            <figure class="logo-wrapper"><img src="img/nodejs.jpg"></figure>
+          </a>
+        </li>
+      </ul>
+      <ul class="logo-list col-2">
+        <li>
+          <a target="_blank" href="http://rubyonrails.org/">
+            <figure class="logo-wrapper"><img src="img/ror.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="http://php.net/">
+            <figure class="logo-wrapper"><img src="img/php.jpg"></figure>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <section>
+        <h2>Armazenando os dados</h2>
+        <a target="_blank" href="http://xkcd.com/327/"><img src="img/database.png" /></a>
+      </section>
+      <section>
+        <h2>Banco de dados relacionais</h2>
+        <ul class="logo-list col-2">
+          <li>
+            <a target="_blank" href="http://www.microsoft.com/pt-br/server-cloud/products/sql-server/default.aspx">
+              <figure class="logo-wrapper"><img src="img/sqlserver.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.mysql.com/">
+              <figure class="logo-wrapper"><img src="img/mysql.jpg"></figure>
+            </a>
+          </li>
+        </ul>
+        <ul class="logo-list col-2">
+          <li>
+            <a target="_blank" href="http://www.postgresql.org/">
+              <figure class="logo-wrapper"><img src="img/postgret.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.oracle.com/database/index.html">
+              <figure class="logo-wrapper"><img src="img/oracle.jpg"></figure>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Banco de dados não-relacionais</h2>
+        <ul class="logo-list col-2">
+          <li>
+            <a target="_blank" href="https://www.mongodb.org/">
+              <figure class="logo-wrapper"><img src="img/mongo.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://cassandra.apache.org/">
+              <figure class="logo-wrapper"><img src="img/cassandra.jpg"></figure>
+            </a>
+          </li>
+        </ul>
+        <ul class="logo-list col-2">
+          <li>
+            <a target="_blank" href="http://redis.io/">
+              <figure class="logo-wrapper"><img src="img/redis.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://neo4j.com/">
+              <figure class="logo-wrapper"><img src="img/neo4j.jpg"></figure>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </section>
+    <section data-background="img/code.gif">
+    </section>
+    <section data-background="img/sublime.gif">
+      <h2>Editores de texto</h2>
+      <ul class="logo-list col-2">
+        <li>
+          <a target="_blank" href="http://www.sublimetext.com/">
+            <figure class="logo-wrapper"><img src="img/editores-texto/sublime.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://atom.io/">
+            <figure class="logo-wrapper"><img src="img/editores-texto/atom.jpg"></figure>
+          </a>
+        </li>
+      </ul>
+      <ul class="logo-list col-2">
+        <li>
+          <a target="_blank" href="http://brackets.io/">
+            <figure class="logo-wrapper"><img src="img/editores-texto/brackets.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://code.visualstudio.com/">
+            <figure class="logo-wrapper"><img src="img/editores-texto/vs.jpg"></figure>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>IDE</h2>
+      <ul class="logo-list col-2 big">
+        <li>
+          <a target="_blank" href="https://www.visualstudio.com/">
+            <figure class="logo-wrapper"><img src="img/vs.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.jetbrains.com/webstorm/">
+            <figure class="logo-wrapper"><img src="img/webstorm.jpg"></figure>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section  data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+      <blockquote cite="http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X">
+        “Use a Single Editor Well”
+      </blockquote>
+      <a target="_blank" href="http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X"><img src="img/pragmatic-programmer.jpg"></a>
+    </section>
+    <section>
+      <h2>Codifique para psicopatas</h2>
+      <blockquote cite="http://blog.codinghorror.com/coding-for-violent-psychopaths/">
+        “Always code as if the person who ends up maintaining your code is a violent psychopath who knows where you live.”
+      </blockquote>
+      <a target="_blank" href="http://blog.codinghorror.com/coding-for-violent-psychopaths/"><img src="img/psicopata.jpg" /></a>
+    </section>
+    <section>
+      <section data-background="img/teste-codigo.gif">
+        <h2>Teste o seu código</h2>
+      </section>
+      <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+        <h2>Por onde começar</h2>
+        <div class="left-image">
+            <a target="_blank" href="http://www.casadocodigo.com.br/products/livro-tdd">
+            <img src="img/tdd-aniche.png" width="180" />
+            <span class="text">Test-Driven Development: Teste e Design no Mundo Real com .NET</a>
+            Mauricio Aniche</span>
+        </div>
+		<div class="left-image">
+            <a target="_blank" href="http://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530">
+            <img src="img/tdd-kent-beck.jpg" width="180" />
+            <span class="text">Test Driven Development: By Example</a>
+            Kent Beck</span>
+		</div>
+          </li>
+        </ul>
+      </section>
+    </section>
+    <section>
+      <h2>Padronize o seu projeto</h2>
+      <img src="img/padrao-pastas.jpg">
+      <img src="img/padrao-codigo.jpg">
+    </section>
+    <section data-background="img/broken-windows.jpg">
+      <div class="opacity">
+        <h2>Cuide do seu código</h2>
+        <p><a target="_blank" href="http://en.wikipedia.org/wiki/Broken_windows_theory">Broken windows theory</a></p>
+        <em>
+        “This theory states that if there is a disorder in a neighbourhood for a substantial period of time, the mess will only get worse.”
+        </em>
+      </div>
+    </section>
+    <section>
+      <section>
+        <h2>Versione</h2>
+        <h3>Sempre.</h3>
+        <img src="img/versionar.jpg">
+      </section>
+      <section>
+        <h2>Sistemas de controle de versão</h2>
+        <ul class="logo-list">
+        <li>
+          <a target="_blank" href="http://git-scm.com/">
+            <figure class="logo-wrapper"><img src="img/git.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx">
+            <figure class="logo-wrapper"><img src="img/tfs.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://subversion.apache.org/">
+            <figure class="logo-wrapper"><img src="img/svn.jpg"></figure>
+          </a>
+        </li>
+      </ul>
+      </section>
+      <section>
+        <h2>Repositórios online</h2>
+        <ul class="logo-list">
+          <li>
+            <a target="_blank" href="https://github.com/">
+              <figure class="logo-wrapper"><img src="img/github.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://bitbucket.org/">
+              <figure class="logo-wrapper"><img src="img/bitbucket.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.visualstudio.com/products/what-is-visual-studio-online-vs">
+              <figure class="logo-wrapper"><img src="img/vsonline.jpg"></figure>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </section>
+    <section>
+      <h2>Comunique-se</h2>
+      <ul class="logo-list col-2">
+        <li>
+          <a target="_blank" href="https://www.hipchat.com/">
+            <figure class="logo-wrapper"><img src="img/comunique-se/hipchat.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://slack.com/">
+            <figure class="logo-wrapper"><img src="img/comunique-se/slack.jpg"></figure>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Tenha controle do seu tempo</h2>
+      <ul class="logo-list col-2">
+        <li>
+          <a target="_blank" href="https://www.toggl.com/">
+            <figure class="logo-wrapper"><img src="img/controle-tempo/toggl.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://letsfreckle.com/">
+            <figure class="logo-wrapper"><img src="img/controle-tempo/freckle.jpg"></figure>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Gerencie as tarefas</h2>
+      <ul class="logo-list">
+        <li>
+          <a target="_blank" href="https://www.atlassian.com/software/jira?t=b">
+            <figure class="logo-wrapper"><img src="img/jira.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://trello.com/">
+            <figure class="logo-wrapper"><img src="img/trellot.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.zenhub.io/">
+            <figure class="logo-wrapper"><img src="img/zenhub.jpg"></figure>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <section data-background="img/deploy.jpg">
+        <div class="opacity" style="width: 800px; margin: 190px auto 0 auto">
+          <h2 style="margin-bottom: 0">Integrar, empacotar e entregar</h2>
+        </div>
+      </section>
+      <section data-background="img/gifs/no-god.gif">
+        <h2>FTP</h2>
+      </section>
+      <section data-background="img/pipeline.jpg">
+        <div class="opacity" style="margin: 0 auto; width: 650px">
+          <h2>Integração contínua</h2>
+          <ul style="margin-bottom: 10px">
+            <li><a target="_blank" href="https://jenkins-ci.org/">Jenkins CI</a></li>
+            <li><a target="_blank" href="https://travis-ci.org/">Travis CI</a></li>
+            <li><a target="_blank" href="https://www.snap-ci.com/">Snap CI</a></li>
+          </ul>
+        </div>
+      </section>
+    </section>
+    <section>
+      <section data-background="http://fc01.deviantart.net/fs71/f/2015/012/1/5/numa_flat_clouds_by_microfreaks-d8dpuz9.png">
+        <div class="opacity" style="width: 600px; margin: 0 auto">
+          <h2>Servidores Cloud</h2>
+          <ul style="margin-bottom: 10px">
+            <li>PaaS</li>
+            <li>IaaS</li>
+            <li>DBaaS</li>
+            <li>EaaS</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2>PaaS e IaaS</h2>
+        <ul class="logo-list col-2">
+          <li>
+            <a target="_blank" href="http://azure.microsoft.com/pt-br/">
+              <figure class="logo-wrapper"><img src="img/azure.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://aws.amazon.com/pt/">
+              <figure class="logo-wrapper"><img src="img/aws.jpg"></figure>
+            </a>
+          </li>
+        </ul>
+        <ul class="logo-list col-2">
+          <li>
+            <a target="_blank" href="https://www.heroku.com/">
+              <figure class="logo-wrapper"><img src="img/heroku.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.digitalocean.com/">
+              <figure class="logo-wrapper"><img src="img/digitialocean.jpg"></figure>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>DBaaS</h2>
+        <ul class="logo-list col-2">
+          <li>
+            <a target="_blank" href="https://www.cleardb.com/">
+              <figure class="logo-wrapper"><img src="img/cleardb.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://mongolab.com/">
+              <figure class="logo-wrapper"><img src="img/mongolab.jpg"></figure>
+            </a>
+          </li>
+        </ul>
+        <ul class="logo-list col-2">
+          <li>
+            <a target="_blank" href="http://www.elephantsql.com">
+              <figure class="logo-wrapper"><img src="img/elephantsql.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.microsoft.com/brasil/windowsazure/sqlazure/">
+              <figure class="logo-wrapper"><img src="img/sqlazure.jpg"></figure>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>EaaS</h2>
+        <ul class="logo-list">
+          <li>
+            <a target="_blank" href="http://www.mailgun.com/">
+              <figure class="logo-wrapper"><img src="img/mailgun.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://sendgrid.com/">
+              <figure class="logo-wrapper"><img src="img/sendgrid.jpg"></figure>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.mandrill.com/">
+              <figure class="logo-wrapper"><img src="img/mandrill.jpg"></figure>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </section>
+    <section data-background="img/newrelic_snapshot.jpg">
+      <div style="width: 900px; margin: 0 auto">
+      <h2>Monitore a sua aplicação</h2>
+      <ul class="logo-list">
+        <li>
+          <a target="_blank" href="http://newrelic.com/">
+            <figure class="logo-wrapper"><img src="img/newrelic.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://keymetrics.io/">
+            <figure class="logo-wrapper"><img src="img/keymetrics.jpg"></figure>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="http://www.google.com/analytics/">
+            <figure class="logo-wrapper"><img src="img/ga.jpg"></figure>
+          </a>
+        </li>
+      </ul>
+      </div>
+    </section>
+    <section data-background="img/busy.png">
+    </section>
+    <section>
+      <h2>Seja um programador pragmático</h2>
+      <ul>
+        <li>Early adopter/fast adapter;</li>
+        <li>Inquisitive;</li>
+        <li>Critical thinker;</li>
+        <li>Realistic;</li>
+        <li>Jack of all trades;</li>
+        <li>Care about your craft;</li>
+        <li>Think! About your work.</li>
+      </ul>
+    </section>
+    <section data-background="http://www.uniritter.edu.br/uploads/imagens/2014-2_Not%C3%ADcias_Site_ev/tdc.jpg">
+      <div class="opacity" style="width: 650px; margin: 0 auto">
+        <h2>Participe de eventos</h2>
+        <ul style="margin-bottom: 10px">
+          <li><a target="_blank" href="http://www.thedevelopersconference.com.br/">The Developer's Conference</a></li>
+          <li><a target="_blank" href="http://dnad.dotnetarchitects.net/">.NET Architects Days (DNAD)</a></li>
+          <li><a target="_blank" href="http://braziljs.com.br/">BrazilJS Conf</a></li>
+          <li><a target="_blank" href="http://www.rubyconf.com.br/">RubyConf</a></li>
+          <li><a target="_blank" href="http://conferenciaweb.w3c.br/">Conferência W3C Web.BR</a></li>
+          <li><a target="_blank" href="http://www.frontinsampa.com.br/">Frontinsampa</a></li>
+          <li><a target="_blank" href="http://www.conferenciacssbrasil.com.br/">Conferência CSS Brasil</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2>Leia</h2>
+      <ul>
+        <li><a target="_blank" href="http://www.amazon.com.br/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">Clean Code: A Handbook of Agile Software Craftsmanship</a></li>
+        <li><a target="_blank" href="http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X">The Pragmatic Programmer: From Journeyman to Master</a></li>
+        <li><a target="_blank" href="http://www.amazon.com/The-Passionate-Programmer-Remarkable-Development/dp/1934356344">The Passionate Programmer: Creating a Remarkable Career in Software Development</a></li>
+      </ul>
+    </section>
+    <section data-background="img/compartilhe.jpg">
+      <div class="opacity" style="width: 600px; margin: 0 auto">
+        <h2>Compartilhe</h2>
+        <ul style="margin-bottom: 10px">
+          <li><a target="_blank" href="https://github.com/">GitHub</a></li>
+          <li><a target="_blank" href="https://medium.com">Medium</a></li>
+          <li>Blog</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2>Estude inglês</h2>
+      <img src="img/tweet.jpg">
+    </section>
+    <section data-background="img/meetup.jpg">
+      <div class="opacity" style="width: 700px; margin: 0 auto">
+        <h2>Troque conhecimento!</h2>
+        <a href="http://www.meetup.com/Campinas-Front-End-Meetup/" target="_blank">Campinas Front-End Meetup</a>
+      </div>
+    </section>
+    <section style="text-align: left;">
+      <h1>Obrigado. Dúvidas?</h1>
+      <p>
+        <a target="_blank" href="http://github.com/princiweb/lero-lero">github.com/princiweb/lero-lero</a>
+      </p>
+    </section>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+      	controls: true,
+      	progress: true,
+      	history: true,
+      	center: true,
+      
+      	transition: 'slide', // none/fade/slide/convex/concave/zoom
+      
+      	// Optional reveal.js plugins
+      	dependencies: [
+      		{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      		{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      		{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      		{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+      		{ src: 'plugin/zoom-js/zoom.js', async: true },
+      		{ src: 'plugin/notes/notes.js', async: true }
+      	]
+      });
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+.reveal img.no-background {
+  border: 0;
+  box-shadow: none;
+  background: none;
+}
+
+.pessoa {
+  width: 50%;
+  float: left;
+  font-size: .5em !important;
+}
+
+ul.logo-list {
+	margin: 0;
+	text-align: center;
+}
+
+ul.logo-list li {
+  position: relative;
+	display: inline-block;
+  float: left;
+	width: 30%;
+	margin-left: 0%;
+	margin-right: 3.621730382293762%;
+}
+
+ul.logo-list.col-4 li {
+  width: 22%;
+}
+
+ul.logo-list.col-2 li {
+  width: 48%;
+}
+
+ul.logo-list.col-2 li img {
+  width: 85%;
+  padding: 0;
+}
+
+ul.logo-list.col-2.big li img {
+  width: 90%;
+}
+
+ul.logo-list li img {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+ul.logo-list li .logo-name {
+  /*position: absolute;*/
+  float: left;
+  
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  
+}
+
+.logo-wrapper {
+  position: relative;
+  /*width: 100%;*/
+  width: 270px;
+  height: 270px;
+  /*height: 270px;*/
+}
+
+ul.logo-list li a {
+  position: initial;
+}
+
+ul.logo-list li:last-child {
+	margin-right: 0;
+}
+
+ul.logo-list li img {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+	width: 100%;
+}
+
+.manifesto
+{
+  margin-top: 75px !important
+}
+.manifesto li {
+  font-size: .5em !important;
+  list-style: outside none none;
+  float: left;
+  margin-bottom: 6px;
+  margin-right: 21px;
+  padding-left: 40px;
+  position: relative;
+  width: 246px;
+}
+
+
+.manifesto li .numero {
+    background: transparent url("../img/bg-numero.png") no-repeat scroll 0 0;
+    color: #b34198;
+    font-size: 27px;
+    height: 53px;
+    left: -16px;
+    line-height: 53px;
+    position: absolute;
+    text-align: center;
+    top: -12px;
+    width: 46px;
+}
+
+
+.manifesto li h4 {
+    color: #ffffff;
+    float: left;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 24px;
+    margin-bottom: 0
+}
+
+
+.manifesto li p {
+  margin-top: 5px;
+    color: #ffffff;
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 240px;
+}
+
+.manifesto li p span {
+  color: #ffac6a;
+}
+
+.redes { display: block !important; margin: 0 auto 0 auto !important; width: 590px; overflow: hidden }
+.redes li { list-style: inside none none; float: left; margin-right: 30px; font-size: 0.5em; padding: 10px 0 }
+.redes li a { line-height: 28px; padding-left: 35px; }
+
+.redes li.twitter { background: url('../img/twitter.png') no-repeat left }
+.redes li.facebook { background: url('../img/facebook.png') no-repeat left }
+.redes li.linkedin { background: url('../img/linkedin.png') no-repeat left; margin-right: 0 !important; }
+.redes li.github { background: url('../img/github.png') no-repeat left }
+
+.left-image {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.left-image img {
+  float: left;
+  margin-right: 50px;
+  display: inline-block;
+}
+
+.left-image .text {
+  display: block;
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  width: 75%;
+  margin-top: 50px;
+}
