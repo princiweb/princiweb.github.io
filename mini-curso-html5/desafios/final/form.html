@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>localStorage - Galeria</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    
+    .galeria {
+      list-style: none;
+    }
+
+    .item-galeria {
+      float: left;
+      width: 33%;
+    }
+
+    .foto-galeria {
+      width: 100%;
+    }
+  
+  </style>
+</head>
+<body>
+
+  <label for="">Imagem:</label>
+  <input type="text" id="txt-nome">
+  <button id="enviar">Enviar</button>
+  <button id="limpar">Limpar localStorage</button>
+
+  <ul id="galeria" class="galeria">
+  </ul>
+  
+  <script src="app.js"></script>
+</body>
+</html>
